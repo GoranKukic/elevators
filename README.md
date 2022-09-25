@@ -29,7 +29,7 @@ Click on image to play video:
 
 ## Live preview
 
-[a link](https://gorankukic.github.io/elevators)
+[See live here](https://gorankukic.github.io/elevators)
 
 ## Development requirements
 
