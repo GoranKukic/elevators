@@ -27,6 +27,10 @@ Click on image to play video:
 
 [![Watch the video](/src/assets/images/screenshot.jpg)](https://youtu.be/RrpQQO2eYv0)
 
+## Live preview
+
+[a link](https://gorankukic.github.io/elevators)
+
 ## Development requirements
 
 - [Node.js](http://nodejs.org/)
