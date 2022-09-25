@@ -2,9 +2,10 @@
 
 As part of a internship process I was recently asked to build a basic web application.
 
-This repo is about  what I menaged to build.
+This repo is about what I menaged to build.
 
 ## The brief
+
 Build a web app with an elevatory system that:
 
 - has one building,
@@ -22,7 +23,7 @@ Build a web app with an elevatory system that:
 
 ## Screenshoot
 
-![Screenshot](/src/assets/images/screenshot.png?raw=true "Screenshot")
+![Screenshot](/src/assets/images/screenshot.png?raw=true 'Screenshot')
 
 ## Development requirements
 
