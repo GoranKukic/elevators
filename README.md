@@ -23,7 +23,7 @@ Build a web app with an elevatory system that:
 
 ## Screenshoot
 
-![Screenshot](/src/assets/images/screenshot.png?raw=true 'Screenshot')
+![Screenshot](/src/assets/images/screenshot.jpg?raw=true 'Screenshot')
 
 ## Development requirements
 
