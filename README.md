@@ -1,7 +1,7 @@
 # Elevator App
 
 As part of a internship process I was recently asked to build a basic web application.
-
+I have decided to do it with React.
 This repo is about what I menaged to build.
 
 ## The brief
@@ -21,9 +21,9 @@ Build a web app with an elevatory system that:
 - if first or second elevator is staying 20 socond on some floor, it is going back to the ground level,
 - every floor need to have button to call elevator,
 
-## Screenshoot
+## Video preview
 
-![Screenshot](/src/assets/images/screenshot.jpg?raw=true 'Screenshot')
+[![Watch the video](https://img.youtube.com/vi/RrpQQO2eYv0/default.jpg)](https://youtu.be/RrpQQO2eYv0)
 
 ## Development requirements
 
