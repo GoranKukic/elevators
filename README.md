@@ -23,6 +23,8 @@ Build a web app with an elevatory system that:
 
 ## Video preview
 
+Click on image to play video:
+
 [![Watch the video](/src/assets/images/screenshot.jpg)](https://youtu.be/RrpQQO2eYv0)
 
 ## Development requirements
