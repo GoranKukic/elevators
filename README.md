@@ -18,12 +18,12 @@ Build a web app with an elevatory system that:
 - elevators has animation for door opening,
 - has animation for change floor number on floor picker,
 - has sound effect when floor arive on selected floor,
-- if first or second elevator is staying 20 socond on some floor, it is going back to the ground level,
+- if first or second elevator is staying 15 second on some floor, it is going back to the ground level,
 - every floor need to have button to call elevator,
 
 ## Video preview
 
-[![Watch the video](https://img.youtube.com/vi/RrpQQO2eYv0/default.jpg)](https://youtu.be/RrpQQO2eYv0)
+[![Watch the video](/src/assets/images/screenshot.jpg)](https://youtu.be/RrpQQO2eYv0)
 
 ## Development requirements
 
