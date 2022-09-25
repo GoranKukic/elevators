@@ -1,0 +1,125 @@
+.elevators-wraper{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.elevator-container{
+    position: relative;
+    height: 100%;
+    width: 60px;
+    background-color: #dce2e6; 
+    justify-content: space-between;
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
+}
+
+.elevator{
+    position: absolute;
+    bottom: 0;
+    background-color: $black;
+    width: 40px;
+    height: 50px;
+    margin: 7px 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 5s ease;
+}
+
+.elevator-light{
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin: 2px auto;
+}
+
+.elevator-door{
+    width: 30px;
+    height: 33px;
+    background-color: $white;
+    margin: 2px auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.door-active-left{
+    
+    width: 15px;
+    height: 100%;
+    display: block;
+    margin-left: -50%;
+    margin-right: auto;
+    background-color: $door-active;
+    
+}
+
+.door-active-right{
+    background-color: $door-active;
+    width: 15px;
+    height: 100%;
+    display: block;
+    margin-right: -50%;
+    margin-left: auto;
+
+}
+
+.elevator-on-move{
+    overflow: hidden;
+
+    .elevator-light{
+        background-color: red;
+    }
+    
+
+    .door-active-left{
+        animation-name: doorLeft;
+        animation-duration: 5s;
+    }
+
+    .door-active-right{
+        animation-name: doorRight;
+        animation-duration: 5s;
+    }
+    
+    @keyframes doorLeft {
+        0% {
+            margin-left: -50%;  
+        }
+
+        5% {
+            margin-left: 0%;
+        }
+
+        95% {
+            margin-left: 0%;
+        }
+        
+        98% {
+            margin-left: -50%;
+        }
+    }
+
+    @keyframes doorRight {
+        0% {
+            margin-right: -50%;  
+        }
+
+        5% {
+            margin-right: 0%;
+        }
+
+        95% {
+            margin-right: 0%;
+        }
+        
+        98% {
+            margin-right: -50%;
+        }
+    }
+    
+}

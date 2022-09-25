@@ -1,0 +1,27 @@
+#root{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.page-wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.upper-wrap{
+    height: 90%;
+    background-color: $sky-color ;
+    //opacity: 0.5;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lower-wrap{
+    height: 10%;
+    background-color: $grass-color;
+}

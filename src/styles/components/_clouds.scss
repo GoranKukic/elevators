@@ -1,0 +1,71 @@
+.cloud {
+	z-index: 1;
+	width: 350px; height: 120px;
+	background: $white;
+	background: linear-gradient(top, $white 5%, $white-second 100%);
+	background: -webkit-linear-gradient(top, $white 5%, $white-second 100%);
+	background: -moz-linear-gradient(top, $white 5%, $white-second 100%);
+	background: -ms-linear-gradient(top, $white 5%, $white-second 100%);
+	background: -o-linear-gradient(top, $white 5%, $white-second 100%);
+	
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	
+	position: relative;
+	margin: 120px auto 20px;
+}
+
+.cloud:after, .cloud:before {
+	content: '';
+	position: absolute;
+	background: $white;
+	z-index: -1
+}
+
+.cloud:after {
+	width: 100px; height: 100px;
+	top: -50px; left: 50px;
+	
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+.cloud:before {
+	width: 180px; height: 180px;
+	top: -90px; right: 50px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+
+.cloud-1{
+    position: absolute;
+    top: 20%;
+    left: -5%;
+}
+
+.cloud-2{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.cloud-3{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+.cloud-4{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.cloud-5{
+    position: absolute;
+    top: 10%;
+    left: 85%;
+}
